@@ -1,6 +1,9 @@
 using BitVectorExtensions
 using Test
+using BitVectorExtensions: bitonehot
+using Random
 
 @testset "BitVectorExtensions.jl" begin
-    # Write your tests here.
+    include("constructor_unsigned.jl")
+    include("shifts.jl")
 end
